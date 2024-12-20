@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.antlr.v4.runtime.tree.pattern.ParseTreePatternMatcher;
 
 import java.util.Set;
 
@@ -19,6 +20,7 @@ public class Handyman {
     private String name;
     private float rating;
     private String skill;
+    private String description;
     private String imageName;
     private String imageType;
     @Lob
